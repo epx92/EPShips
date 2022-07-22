@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #252525 url(../images/bgimg2.jpg); no-repeat top center;
+   /* background: #252525 url(../images/bgimg2.jpg); no-repeat top center; */
    background-size: 110% !important;
 	-webkit-background-size: 110% !important;
    text-align: center;
@@ -422,7 +422,7 @@ ul#nav li.current a { color: #00f064; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #323035;
+   /* background: #323035; */
    padding-top: 40px;
    padding-bottom: 60px;
    
@@ -804,7 +804,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #000000;
+   /* background: #000000; */
    padding-top: 96px;
    padding-bottom: 102px;
    color: #222222;
@@ -885,7 +885,7 @@ call-to-action .button {
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:rgb(84, 152, 184);
+	color:rgb(113, 16, 158);
    background: #f3f0f0;
 	border: none;
    cursor: pointer;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
+import { Parallax, Background } from "react-parallax"
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
@@ -9,6 +10,9 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+
+
+const backgroundImage = require("./Components/image/bgimg2.jpg");
 
 class App extends Component {
 
@@ -46,12 +50,26 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
+        <Parallax bgImage={backgroundImage} strength={900}
+        bgImageStyle={
+          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+        }>
+        <Header data={this.state.resumeData.main}/>  
+        </Parallax>
         <About data={this.state.resumeData.main}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Parallax bgImage={backgroundImage} strength={900}
+        bgImageStyle={
+          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+        }>
+          <Portfolio data={this.state.resumeData.portfolio}/>
+        </Parallax>
         <Resume data={this.state.resumeData.resume}/>
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Contact data={this.state.resumeData.main}/>
+        <Parallax bgImage={backgroundImage} strength={900}
+        bgImageStyle={
+          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+        }><Contact data={this.state.resumeData.main}/>
+        </Parallax>
         <Footer data={this.state.resumeData.footer}/>
       </div>
     );
