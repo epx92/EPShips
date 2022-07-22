@@ -68,6 +68,10 @@
         "level": "75%"
       },
       {
+        "name": "Node.JS",
+        "level": "75%"
+      },
+      {
         "name": "React.JS",
         "level": "60%"
       },
@@ -99,33 +103,39 @@
       },
       {
         "title": "SuperbowlPools",
-        "category": "(offline now) A fighting gear company I started",
+        "category": "First ever decentralized betting pool for the superbowl",
         "image": "purple.png",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "BuildBNB",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "yellow.png",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "DeCentraland",
-        "category": "A React based resume website template",
-        "image": "pink.png",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://github.com/epx92/superbowlpool"
       },
       {
         "title": "eScrimz",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "category": "The complete solution for content creators in the decentralized community",
+        "image": "yellow.png",
+        "url": "https://github.com/epx92/escrimz"
+      },
+      {
+        "title": "DeCentraland",
+        "category": "First ever decentralized insurance protocol with built-in subscription and voting mechanisms",
+        "image": "pink.png",
+        "url": "https://github.com/epx92/uncentralizeIns"
+      },
+      {
+        "title": "ROI",
+        "category": "Generic but custom built decentralized high-risk dApp",
         "image": "green.png",
-        "url": "http://www.smirkspace.com"
+        "url": "https://github.com/epx92/ROI"
+      },
+      {
+        "title": "NFT-Mint",
+        "category": "Simple NFT Minting Contract",
+        "image": "orange.png",
+        "url": "https://github.com/epx92/nftmint"
       },
       {
         "title": "deVoters",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "category": "A skeletal voting contract that can be implemented into any protocols requiring voting",
         "image": "sky.png",
-        "url": "http://www.smirkspace.com"
+        "url": "https://github.com/epx92/voters"
       }
     ]
   }
