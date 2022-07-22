@@ -50,24 +50,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Parallax bgImage={backgroundImage} strength={900}
+        <Parallax bgImage={backgroundImage} strength={500}
         bgImageStyle={
-          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+          {height: '1000px', maxWidth: '180%', opacity: '.8'}
         }>
         <Header data={this.state.resumeData.main}/>  
         </Parallax>
         <About data={this.state.resumeData.main}/>
-        <Parallax bgImage={backgroundImage} strength={900}
+        <Parallax bgImage={backgroundImage} strength={500}
         bgImageStyle={
-          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+          {height: '3000px', maxWidth: '180%', opacity: '.8'}
         }>
           <Portfolio data={this.state.resumeData.portfolio}/>
         </Parallax>
         <Resume data={this.state.resumeData.resume}/>
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        <Parallax bgImage={backgroundImage} strength={900}
+        <Parallax bgImage={backgroundImage} strength={1000}
         bgImageStyle={
-          {height: 'auto', maxWidth: '180%', opacity: '.8'}
+          {height: '1000px', maxWidth: '180%', opacity: '.8'}
         }><Contact data={this.state.resumeData.main}/>
         </Parallax>
         <Footer data={this.state.resumeData.footer}/>

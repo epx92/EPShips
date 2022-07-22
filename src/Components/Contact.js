@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
+
 class Contact extends Component {
   render() {
-
+   
     if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
@@ -13,7 +14,6 @@ class Contact extends Component {
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
-
     return (
       <section id="contact">
 
@@ -94,3 +94,4 @@ class Contact extends Component {
 }
 
 export default Contact;
+
